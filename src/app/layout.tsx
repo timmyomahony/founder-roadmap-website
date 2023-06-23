@@ -16,6 +16,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body className={inter.className}>{children}</body>
+      <script src="https://cdn.usefathom.com/script.js" data-site="DROHMWBN" defer></script>
     </html>
   )
 }
