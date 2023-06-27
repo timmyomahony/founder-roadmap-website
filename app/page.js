@@ -6,21 +6,22 @@ import BackgroundPicB from "../images/timmy-omahony-office-b.jpg";
 import Page from "../components/layouts/page";
 import Container from "../components/container";
 
-import Brands from "../components/home/brands";
-import Hero from "../components/home/hero";
-import Why from "../components/home/why";
-import Offers from "../components/home/offers";
-import Testimonials from "../components/home/testimonials";
-import Bio from "../components/home/bio";
-import Contact from "../components/home/contact";
+import Divider from "../components/Divider";
+
+import Hero from "../components/home/Hero";
+import Pain from "../components/home/Pain";
+import Services from "../components/home/Services";
+import Testimonials from "../components/home/Testimonials";
+import Bio from "../components/home/Bio";
+import Contact from "../components/home/Contact";
 
 export default function HomePage() {
   return (
     <Page showFooter={false}>
       <Container>
         <Hero />
-        <Why />
-        <Offers />
+        <Pain />
+        <Services />
         <section className="pt-12 lg:pt-16 xl:pt-24 2xl:pt-32">
           <Image
             src={BackgroundPicB}
@@ -30,7 +31,10 @@ export default function HomePage() {
             priority
           />
         </section>
-        <Brands />
+        <div className="py-8">
+          <Divider text={"Testimonials"} />
+        </div>
+
         <Testimonials />
         <section className="pt-12 lg:pt-16 xl:pt-24 2xl:pt-32">
           <Image

@@ -1,7 +1,9 @@
-export default function Why() {
+import Divider from "../../components/Divider";
+
+export default function Pain() {
   return (
     <>
-      <section className="flex flex-col md:flex-row py-8 md:py-12 lg:py-16 2xl:py-24 gap-24 md:gap-12 lg:gap-24">
+      <section className="flex flex-col md:flex-row my-8 md:my-12 lg:my-16 2xl:my-24 gap-24 md:gap-12 lg:gap-24">
         <div className="w-full md:w-1/2 lg:w-1/2">
           <h2 className="heading-2">
             I help non-technical founders put together a bulletproof plan for
@@ -44,9 +46,11 @@ export default function Why() {
           </p>
         </div>
       </section>
-      <section className="flex flex-col md:flex-row pb-8 md:pb-12 lg:pb-16 2xl:pb-24 gap-24 md:gap-12 lg:gap-24">
+      <section className="my-8">
+        <Divider text={"What's the solution?"} />
+      </section>
+      <section className="flex flex-col md:flex-row my-8 md:my-12 lg:my-16 2xl:my-24 gap-24 md:gap-12 lg:gap-24">
         <div className="w-full md:w-1/2 lg:w-1/2">
-          <h2 className="heading-2 mb-8 2xl:mb-12">Workshops & Roadmaps</h2>
           <p className="body-0 mb-6 lg:mb-8">
             The truth is that building apps can be expensive and risky. It can
             be hard to communicate your expectations and there are countless
