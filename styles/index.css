@@ -1,6 +1,4 @@
 @import "type";
-@import "spacing";
-@import "mdx";
 @import "toastify";
 
 @tailwind base;

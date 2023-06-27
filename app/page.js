@@ -23,7 +23,7 @@ export default function HomePage() {
         <Offers />
         <section className="pt-12 lg:pt-16 xl:pt-24 2xl:pt-32">
           <Image
-            src={BackgroundPicA}
+            src={BackgroundPicB}
             alt="Timmy O'Mahony"
             placeholder="blur"
             quality={95}
@@ -32,9 +32,9 @@ export default function HomePage() {
         </section>
         <Brands />
         <Testimonials />
-        <section className="pb-8 md:pb-12 lg:pb-16 2xl:pb-32">
+        <section className="pt-12 lg:pt-16 xl:pt-24 2xl:pt-32">
           <Image
-            src={BackgroundPicB}
+            src={BackgroundPicA}
             alt="Timmy O'Mahony"
             placeholder="blur"
             quality={95}
