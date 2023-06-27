@@ -5,7 +5,7 @@ export default function Pain() {
     <>
       <section className="flex flex-col md:flex-row my-8 md:my-12 lg:my-16 2xl:my-24 gap-24 md:gap-12 lg:gap-24">
         <div className="w-full md:w-1/2 lg:w-1/2">
-          <h2 className="heading-2">
+          <h2 className="text-2xl lg:text-3xl">
             I help non-technical founders put together a bulletproof plan for
             turning their ideas into apps, before a line of code is written.
           </h2>

@@ -3,48 +3,23 @@
 @layer utilities {
   /* Heading 1 */
   .heading-1 {
-    @apply text-3xl leading-tight;
+    @apply text-3xl;
   }
 
   @screen md {
     .heading-1 {
-      @apply leading-tight;
     }
   }
 
   @screen xl {
     .heading-1 {
-      @apply text-4xl leading-tight;
+      @apply text-4xl;
     }
   }
 
   @screen 2xl {
     .heading-1 {
-      @apply text-5xl leading-snug;
-    }
-  }
-
-  /* Heading 2 */
-  .heading-2 {
-    @apply text-2xl leading-tight;
-  }
-
-  @screen md {
-    .heading-2 {
-    }
-  }
-
-  @screen lg {
-    .heading-2 {
-      @apply leading-tight;
-      font-size: 2rem;
-    }
-  }
-
-  @screen 2xl {
-    .heading-2 {
-      @apply leading-snug;
-      font-size: 2.5rem;
+      @apply text-5xl;
     }
   }
 
@@ -77,17 +52,6 @@
   @screen 2xl {
     .subheading-2 {
       @apply text-3xl leading-normal;
-    }
-  }
-
-  /* Callout 0 */
-  .callout-0 {
-    @apply uppercase leading-7 text-xs tracking-[0.2em];
-  }
-
-  @screen 2xl {
-    .callout-0 {
-      @apply text-sm;
     }
   }
 
