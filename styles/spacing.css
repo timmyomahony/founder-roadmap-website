@@ -1,0 +1,150 @@
+@tailwind utilities;
+
+@layer utilities {
+  /* 1 */
+  .spacing-t-1 {
+    @apply pt-8;
+  }
+
+  @screen xl {
+    .spacing-t-1 {
+      @apply pt-16;
+    }
+  }
+
+  @screen 2xl {
+    .spacing-t-1 {
+      @apply pt-24;
+    }
+  }
+
+  .spacing-b-1 {
+    @apply pb-8;
+  }
+
+  @screen xl {
+    .spacing-b-1 {
+      @apply pb-16;
+    }
+  }
+
+  @screen 2xl {
+    .spacing-b-1 {
+      @apply pb-24;
+    }
+  }
+
+  .spacing-y-1 {
+    @apply py-8;
+  }
+
+  @screen xl {
+    .spacing-y-1 {
+      @apply py-16;
+    }
+  }
+
+  @screen 2xl {
+    .spacing-y-1 {
+      @apply py-24;
+    }
+  }
+
+  /* 2 */
+  .spacing-t-2 {
+    @apply pt-12;
+  }
+
+  @screen xl {
+    .spacing-t-2 {
+      @apply pt-24;
+    }
+  }
+
+  @screen 2xl {
+    .spacing-t-2 {
+      @apply pt-32;
+    }
+  }
+
+  .spacing-b-2 {
+    @apply pb-12;
+  }
+
+  @screen xl {
+    .spacing-b-2 {
+      @apply pb-24;
+    }
+  }
+
+  @screen 2xl {
+    .spacing-b-2 {
+      @apply pb-32;
+    }
+  }
+
+  .spacing-y-2 {
+    @apply py-12;
+  }
+
+  @screen xl {
+    .spacing-y-2 {
+      @apply py-24;
+    }
+  }
+
+  @screen 2xl {
+    .spacing-y-2 {
+      @apply py-32;
+    }
+  }
+
+  /* 5 */
+  .spacing-t-5 {
+    @apply pt-32;
+  }
+
+  @screen xl {
+    .spacing-t-5 {
+      @apply pt-48;
+    }
+  }
+
+  @screen 2xl {
+    .spacing-t-5 {
+      @apply pt-56;
+    }
+  }
+
+  .spacing-b-5 {
+    @apply pb-32;
+  }
+
+  @screen xl {
+    .spacing-b-5 {
+      @apply pb-48;
+    }
+  }
+
+  @screen 2xl {
+    .spacing-b-5 {
+      @apply pb-56;
+    }
+  }
+
+  .spacing-y-5 {
+    @apply py-32;
+  }
+
+  @screen xl {
+    .spacing-y-5 {
+      @apply py-48;
+    }
+  }
+
+  @screen 2xl {
+    .spacing-y-5 {
+      @apply py-56;
+    }
+  }
+}

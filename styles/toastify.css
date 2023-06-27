@@ -1,0 +1,11 @@
+.Toastify__toast-container {
+  @apply w-auto;
+}
+
+.Toastify__toast {
+  @apply rounded-full w-auto min-h-min;
+}
+
+.Toastify__toast-body {
+  @apply text-xs font-bold p-2 m-0 leading-none;
+}
