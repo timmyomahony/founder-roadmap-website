@@ -14,7 +14,7 @@ const Footer = () => {
           <ul className="flex gap-3 2xl:gap-4 text-zinc-600">
             <li className="w-4 h-4 lg:w-5 lg:h-5 2xl:w-6 2xl:h-6">
               <a
-                href="https://www.linkedin.com/in/timmy-omahony/"
+                href="https://www.linkedin.com/company/founder-roadmap/"
                 title="Connect on LinkedIn"
                 target="_blank"
                 rel="noreferrer"
@@ -24,7 +24,7 @@ const Footer = () => {
             </li>
             <li className="w-4 h-4 lg:w-5 lg:h-5 2xl:w-6 2xl:h-6">
               <a
-                href="https://twitter.com/timmyomahony/"
+                href="https://twitter.com/founderroadmap/"
                 title="Follow me on Twitter"
                 target="_blank"
                 rel="noreferrer"

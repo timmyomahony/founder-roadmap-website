@@ -70,7 +70,10 @@ const Service = ({
 
 export default function Services() {
   return (
-    <section className="grid grid-cols-1 md:grid-cols-2 gap-6 md:gap-12">
+    <section
+      className="grid grid-cols-1 md:grid-cols-2 gap-6 md:gap-12"
+      id="services"
+    >
       {/* <Service
         title={"Starter Workshop"}
         price={

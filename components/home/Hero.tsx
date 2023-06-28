@@ -31,7 +31,7 @@ export default function Hero() {
           foundations before a line of code is written.
         </p>
         <div className="mt-5 xl:mt-6 2xl:mt-10">
-          <Button href="/" className="w-full sm:w-auto text-center">
+          <Button href="/#services" className="w-full sm:w-auto text-center">
             Book a roadmapping workshop today
           </Button>
         </div>
