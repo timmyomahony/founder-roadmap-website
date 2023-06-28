@@ -14,6 +14,7 @@ import Services from "../components/home/Services";
 import Testimonials from "../components/home/Testimonials";
 import Bio from "../components/home/Bio";
 import Contact from "../components/home/Contact";
+import FAQs from "../components/home/FAQs";
 
 export default function HomePage() {
   return (
@@ -35,6 +36,7 @@ export default function HomePage() {
           <Divider text={"Testimonials"} />
         </div>
         <Testimonials />
+        <Bio />
         <section className="pt-12 lg:pt-16 xl:pt-24 2xl:pt-32">
           <Image
             src={BackgroundPicA}
@@ -44,7 +46,7 @@ export default function HomePage() {
             priority
           />
         </section>
-        <Bio />
+        <FAQs />
         <Contact />
       </Container>
     </Page>
