@@ -3,7 +3,7 @@ import { IBM_Plex_Sans, IBM_Plex_Mono } from "next/font/google";
 import "react-toastify/dist/ReactToastify.css";
 import "../styles/index.css";
 
-import Animate from "../components/animate";
+import Animate from "../components/Animate";
 import { defaultMetadata } from "../utils/metadata";
 
 // https://nextjs.org/docs/app/building-your-application/optimizing/fonts#with-tailwind-css

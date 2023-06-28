@@ -1,6 +1,7 @@
 import { ReactElement } from "react";
-import Portrait from "../../images/timmy-omahony-small.jpg";
 import Image from "next/image";
+
+import Portrait from "../../images/timmy-omahony-small.jpg";
 
 interface Testimonial {
   portrait: any;
