@@ -27,7 +27,7 @@ const defaultMetadata = ({
       type,
       images: [{ url: defaultImage }],
     },
-    authors: [{ name: "Timmy O'Mahony", url: "https://timmyomahony.com" }],
+    authors: [{ name: "Timmy O'Mahony", url: "https://founderroadmap.com" }],
     creator: "Timmy O'Mahony",
     icons: {
       icon: "https://timmyomahony.com/favicon/favicon-32x32.png",

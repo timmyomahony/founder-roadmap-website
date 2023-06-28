@@ -1,5 +1,5 @@
 const getEmailAddress = () => {
-  return atob("aGVsbG9AZm91bmRlcnJvYWRtYXAuY29t");
+  return atob("dGltbXlAZm91bmRlcnJvYWRtYXAuY29t");
 };
 
 const sendEmail = () => {

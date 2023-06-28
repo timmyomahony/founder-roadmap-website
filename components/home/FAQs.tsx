@@ -148,14 +148,13 @@ const FAQs = () => {
       </ul>
       <p className="text-end text-xs mt-6">
         Have a question that&apos;s not covered here?{" "}
-        <a href="" className="underline text-green-300">
+        <a
+          href={`mailto:${getEmailAddress()}`}
+          className="underline text-green-300"
+        >
           Send me an email
         </a>{" "}
-        or{" "}
-        <a href="" className="underline text-green-300">
-          schedule a free intro call
-        </a>{" "}
-        to get it answered.
+        and I&apos;ll get back to you with an answer.
       </p>
     </section>
   );

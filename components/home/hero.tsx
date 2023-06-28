@@ -1,5 +1,8 @@
+"use client";
+
 import Image from "next/image";
 
+import { getEmailAddress } from "../../utils/email";
 import ProfilePic from "../../images/timmy-omahony.jpg";
 import Button from "../../components/Button";
 
@@ -23,15 +26,22 @@ export default function Hero() {
           Are you a non-technical founder, unsure of how to get your app built?
         </h1>
         <p className="text-base md:text-lg xl:text-xl mt-5 xl:mt-4 2xl:mt-10">
-          Put a crystal clear plan in place before wasting €1,000s on needless
-          development. Book a workshop or roadmap and set the foundations for a
-          cheaper and faster build-phase with trusted developers.
+          Put a crystal clear plan in place instead of wasting €1,000s on
+          needless development. Book a roadmaping workshop and set the
+          foundations for a cheaper and faster build-phase with trusted
+          developers.
         </p>
         <div className="mt-5 xl:mt-6 2xl:mt-10">
-          <Button href="/">Book a workshop or roadmap today</Button>
+          <Button href="/">Book a roadmapping workshop today</Button>
         </div>
         <p className="text-xs mt-5 xl:mt-5 2xl:mt-10">
-          Don&apos;t worry, it&apos;s free to book.{" "}
+          Don&apos;t worry, it&apos;s free to book. Have questions?{" "}
+          <a
+            className="text-green-300 underline"
+            href={`mailto:${getEmailAddress()}`}
+          >
+            Send me an email
+          </a>
         </p>
       </div>
     </header>
