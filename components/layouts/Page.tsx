@@ -1,7 +1,7 @@
 "use client";
 
-import Nav from "../nav";
-import Footer from "../footer";
+import Nav from "../Nav";
+import Footer from "../Footer";
 import { motion } from "framer-motion";
 
 const Page = ({ children, showHeader = true, showFooter = true }) => {

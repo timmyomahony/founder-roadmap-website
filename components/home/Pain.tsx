@@ -53,7 +53,7 @@ export default function Pain() {
         </div>
       </section>
       <section className="my-8">
-        <Divider text={"What's the solution?"} />
+        <Divider text={"What's a roadmapping workshop?"} />
       </section>
       <section className="flex flex-col md:flex-row my-8 md:my-12 lg:my-16 2xl:my-24 gap-24 md:gap-12 lg:gap-24">
         <div className="w-full md:w-1/2 lg:w-1/2">

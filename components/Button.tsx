@@ -21,7 +21,7 @@ const Button = ({
   ...props
 }: Props) => {
   const defaultClassNames =
-    "button cursor-pointer bg-green-300 text-white text-zinc-900 font-medium py-1 lg:py-3 px-3 lg:px-6 text-base inline-flex items-center gap-2 transition duration-400 ease-in hover:-translate-y-px hover:shadow-sm";
+    "button cursor-pointer bg-green-300 text-white text-zinc-900 font-medium py-1 lg:py-3 px-3 lg:px-6 text-base inline-flex justify-center items-center gap-2 transition duration-400 ease-in hover:-translate-y-px hover:shadow-sm";
 
   const themeClassNames = {
     default: "",

@@ -1,10 +1,18 @@
+interface Props {
+  title: string;
+  description: string;
+  url?: string;
+  image?: string;
+  type?: string;
+}
+
 const defaultMetadata = ({
   title,
   description,
   url,
   image = undefined,
   type = "website",
-}) => {
+}: Props) => {
   const defaultImage =
     "https://www.timmyomahony.com/timmy-omahony-social-media-card.jpg";
   let metadata = {

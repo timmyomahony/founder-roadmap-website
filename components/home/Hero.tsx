@@ -27,12 +27,14 @@ export default function Hero() {
         </h1>
         <p className="text-base md:text-lg xl:text-xl mt-5 xl:mt-4 2xl:mt-10">
           Put a crystal clear plan in place instead of wasting €1,000s on
-          needless development. Book a roadmaping workshop and set the
+          needless development. Book a roadmapping workshop and set the
           foundations for a cheaper and faster build-phase with trusted
           developers.
         </p>
         <div className="mt-5 xl:mt-6 2xl:mt-10">
-          <Button href="/">Book a roadmapping workshop today</Button>
+          <Button href="/" className="w-full sm:w-auto text-center">
+            Book a roadmapping workshop today
+          </Button>
         </div>
         <p className="text-xs mt-5 xl:mt-5 2xl:mt-10">
           Don&apos;t worry, it&apos;s free to book. Have questions?{" "}

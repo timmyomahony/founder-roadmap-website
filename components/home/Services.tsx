@@ -13,6 +13,7 @@ interface ServiceProps {
   benefits: Array<string>;
   linkText: string;
   linkOnClick?: () => void;
+  className?: string;
 }
 
 const Service = ({
@@ -23,12 +24,13 @@ const Service = ({
   benefits,
   linkText,
   linkOnClick,
+  className = "",
 }: ServiceProps) => {
   return (
     <div
       className={`bg-zinc-800 px-6 py-8 flex flex-col justify-between gap-16 ${
         disabled ? "opacity-40 cursor-not-allowed" : ""
-      }`}
+      } ${className}`}
     >
       <header>
         <h3 className="text-lg font-medium">{title}</h3>
@@ -66,8 +68,8 @@ const Service = ({
 
 export default function Services() {
   return (
-    <section className="grid grid-cols-3 gap-12">
-      <Service
+    <section className="grid grid-cols-2 gap-12">
+      {/* <Service
         title={"Starter Workshop"}
         price={
           <span>
@@ -98,10 +100,10 @@ export default function Services() {
         linkOnClick={() => {
           console.log("Test");
         }}
-      />
+      /> */}
       <Service
-        title={"Full Roadmap"}
-        price={"€3,995"}
+        title={"Roadmapping Workshop"}
+        price={"€495"}
         description={
           <p>
             We&apos;ll dig into the nitty-gritty details of your startup or
@@ -115,7 +117,7 @@ export default function Services() {
           "Wireframes & architecture diagrams",
           "Ready for development",
         ]}
-        linkText={"Apply Now"}
+        linkText={"Book Now"}
         linkOnClick={() => {
           console.log("Test");
         }}
@@ -128,7 +130,7 @@ export default function Services() {
           <p>
             Trying to start coding & development without fully understanding
             your technical requirements is a recipe for disaster. Start with a
-            workshop or roadmap to remove the risk up-front.
+            roadmapping workshop to remove the risk up-front.
           </p>
         }
         benefits={[

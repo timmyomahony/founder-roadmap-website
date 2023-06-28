@@ -14,6 +14,8 @@ import Bio from "../components/home/Bio";
 import Contact from "../components/home/Contact";
 import FAQs from "../components/home/FAQs";
 
+import { defaultMetadata } from "../utils/metadata";
+
 export default function HomePage() {
   return (
     <Page>
@@ -50,3 +52,14 @@ export default function HomePage() {
     </Page>
   );
 }
+
+const generateMetadata = async () => {
+  return defaultMetadata({
+    title:
+      "Founder Roadmap | Helping non-technical founders avoid development disasters",
+    description:
+      "I help non-technical founders put together a bulletproof plan for turning their ideas into apps, before a line of code is written.",
+  });
+};
+
+export { generateMetadata };

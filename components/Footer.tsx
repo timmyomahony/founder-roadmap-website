@@ -1,6 +1,4 @@
 import LinkedIcon from "../icons/linkedin.svg";
-import MastodonIcon from "../icons/mastodon.svg";
-import GithubIcon from "../icons/github.svg";
 import TwitterIcon from "../icons/twitter.svg";
 
 const Footer = () => {
@@ -13,7 +11,7 @@ const Footer = () => {
               Founder Roadmap
             </a>
           </div>
-          <ul className="flex gap-3 2xl:gap-4">
+          <ul className="flex gap-3 2xl:gap-4 text-zinc-600">
             <li className="w-4 h-4 lg:w-5 lg:h-5 2xl:w-6 2xl:h-6">
               <a
                 href="https://www.linkedin.com/in/timmy-omahony/"
@@ -36,8 +34,8 @@ const Footer = () => {
             </li>
           </ul>
         </div>
-        <p className="w-full lg:w-1/2 mt-3 text-sm md:text-base xl:text-lg">
-          Helping non-technical founders
+        <p className="w-full lg:w-1/2 mt-3 text-sm md:text-base xl:text-lg text-zinc-600">
+          Helping non-technical founders avoid development disasters
         </p>
         {process.env.NODE_ENV == "development" && (
           <div className="fixed bottom-0 left-0 bg-black type-0 p-1 text-white">

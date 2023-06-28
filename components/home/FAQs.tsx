@@ -1,9 +1,14 @@
 "use client";
 
-import React from "react";
+import React, { ReactElement } from "react";
 import { useState, useEffect } from "react";
 
-import { sendEmail, getEmailAddress } from "../../utils/email";
+import { getEmailAddress } from "../../utils/email";
+
+interface FAQ {
+  question: string;
+  answer: ReactElement | string;
+}
 
 const faqs = [
   {
@@ -69,7 +74,7 @@ const faqs = [
 ];
 
 const FAQs = () => {
-  const [activeItem, setActiveItem] = useState();
+  const [activeItem, setActiveItem] = useState<number>();
 
   const faqClicked = (i) => {
     if (i === activeItem) {
