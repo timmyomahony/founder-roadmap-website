@@ -3,6 +3,8 @@
 import React from "react";
 import { useState, useEffect } from "react";
 
+import { sendEmail, getEmailAddress } from "../../utils/email";
+
 const faqs = [
   {
     question: "I've already got an app, can you help with _________?",

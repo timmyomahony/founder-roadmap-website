@@ -32,7 +32,9 @@ export default function Bio() {
               rel="noreferrer"
             >
               <LinkedIcon className="w-5" />
-              <span className="group-hover:underline">Connect on LinkedIn</span>
+              <span className="group-hover:underline">
+                Connect with me on LinkedIn
+              </span>
             </a>
           </p>
         </div>

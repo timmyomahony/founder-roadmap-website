@@ -65,7 +65,7 @@ export default function Hero() {
         </ul> */}
       </div>
       <div className="w-full md:w-7/12 pt-8 md:pt-12 lg:pt-0 pb-8 md:pb-0">
-        <h1 className="heading-1">
+        <h1 className="text-3xl xl:text-4xl 2xl:text-5xl">
           Are you a non-technical founder, unsure of how to get your app built?
         </h1>
         <p className="body-1 mt-5 xl:mt-4 2xl:mt-10">

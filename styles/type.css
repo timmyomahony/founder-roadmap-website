@@ -1,28 +1,6 @@
 @tailwind utilities;
 
 @layer utilities {
-  /* Heading 1 */
-  .heading-1 {
-    @apply text-3xl;
-  }
-
-  @screen md {
-    .heading-1 {
-    }
-  }
-
-  @screen xl {
-    .heading-1 {
-      @apply text-4xl;
-    }
-  }
-
-  @screen 2xl {
-    .heading-1 {
-      @apply text-5xl;
-    }
-  }
-
   /* Heading 3 */
   .heading-3 {
     @apply text-xl leading-normal;
@@ -123,7 +101,7 @@
     }
   }
 
-  /* Body 1 */
+  /* Body 1 text-base md:text-lg xl:text-xl 2xl:text-2xl */
   .body-1 {
     @apply text-base leading-normal;
   }
