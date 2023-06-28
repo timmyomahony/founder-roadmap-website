@@ -158,8 +158,7 @@ const FAQs = () => {
           className="underline text-green-300"
         >
           Send me an email
-        </a>{" "}
-        and I&apos;ll get back to you with an answer.
+        </a>
       </p>
     </section>
   );

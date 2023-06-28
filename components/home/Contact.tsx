@@ -11,7 +11,7 @@ export default function Contact() {
         <div className="w-full md:w-1/2">
           <p className="text-base md:text-lg xl:text-xl">
             If you&apos;re not quite ready to pull the trigger and book a
-            workshop or roadmap, not to worry! I&apos;m more than happy to have
+            roadmapping workshop not to worry! I&apos;m more than happy to have
             a 15 minute intro call to answer any lingering questions.
           </p>
           <div className="mt-5 xl:mt-10">
