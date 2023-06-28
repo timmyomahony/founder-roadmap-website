@@ -85,14 +85,14 @@ const LargeTestimonial = ({ testimonial }: { testimonial: Testimonial }) => {
       {testimonial.portrait && (
         <Image
           src={testimonial.portrait}
-          className="rounded-full w-24 h-24 mb-8"
+          className="rounded-full w-16 md:w-24 h-16 md:h-24 mb-4 md:mb-8"
           alt={`${testimonial.portrait} portrait image`}
         />
       )}
-      <blockquote className="text-2xl" cite="">
+      <blockquote className="text-lg md:text-2xl" cite="">
         {testimonial.text}
       </blockquote>
-      <figcaption className="text-sm font-mono mt-4 lg:mt-8 xl:mt-8 2xl:mt-20">
+      <figcaption className="text-xs md:text-sm font-mono mt-4 lg:mt-8 xl:mt-8 2xl:mt-20">
         <a
           className="text-green-300 underline"
           href={testimonial.link}
@@ -109,16 +109,16 @@ const LargeTestimonial = ({ testimonial }: { testimonial: Testimonial }) => {
 
 const SmallTestimonial = ({ testimonial }: { testimonial: Testimonial }) => {
   return (
-    <figure className="bg-zinc-800 px-6 py-8 flex gap-5">
+    <figure className="bg-zinc-800 px-4 md:px-6 py-6 md:py-8 flex flex-col md:flex-row gap-0 md:gap-5">
       {testimonial.portrait && (
         <Image
           src={testimonial.portrait}
-          className="rounded-full w-16 h-16 mb-8"
+          className="rounded-full w-10 md:w-16 h-10 md:h-16 mb-4 md:mb-8"
           alt={`${testimonial.portrait} portrait image`}
         />
       )}
       <div>
-        <blockquote className="text-base leading-snug" cite="">
+        <blockquote className="text-sm md:text-base leading-snug" cite="">
           {testimonial.text}
         </blockquote>
         <figcaption className="text-xs leading-tight font-mono mt-4 2xl:mt-20">
@@ -143,7 +143,7 @@ export default function Testimonials() {
       <div className="mb-12 lg:mb-16 xl:mb-20">
         <LargeTestimonial testimonial={testimonials[0]} />
       </div>
-      <div className="grid grid-cols-2 gap-8">
+      <div className="grid grid-cols-1 md:grid-cols-2 gap-4 md:gap-8">
         {testimonials.slice(1).map((testimonial, i) => {
           return <SmallTestimonial key={i} testimonial={testimonial} />;
         })}

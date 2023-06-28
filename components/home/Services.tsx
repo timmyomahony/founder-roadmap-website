@@ -28,13 +28,15 @@ const Service = ({
 }: ServiceProps) => {
   return (
     <div
-      className={`bg-zinc-800 px-6 py-8 flex flex-col justify-between gap-16 ${
+      className={`bg-zinc-800 px-6 py-8 flex flex-col justify-between gap-6 md:gap-16 ${
         disabled ? "opacity-40 cursor-not-allowed" : ""
       } ${className}`}
     >
       <header>
-        <h3 className="text-lg font-medium">{title}</h3>
-        <h4 className="mt-6 text-4xl font-medium">{price}</h4>
+        <h3 className="text-base md:text-lg font-medium">{title}</h3>
+        <h4 className="text-3xl md:text-4xl font-medium mt-3 md:mt-6">
+          {price}
+        </h4>
       </header>
       <div>
         <div className="text-sm flex flex-col gap-4">{description}</div>
@@ -56,7 +58,7 @@ const Service = ({
           onClick={linkOnClick}
           className={`${
             disabled ? "bg-zinc-600" : "bg-green-300 cursor-pointer"
-          } w-full mt-6  text-zinc-900 font-medium py-1 lg:py-2 px-3 lg:px-6 text-base`}
+          } w-full mt-6  text-zinc-900 font-medium py-2 px-3 lg:px-6 text-base`}
           disabled={disabled}
         >
           {linkText}
@@ -68,7 +70,7 @@ const Service = ({
 
 export default function Services() {
   return (
-    <section className="grid grid-cols-2 gap-12">
+    <section className="grid grid-cols-1 md:grid-cols-2 gap-6 md:gap-12">
       {/* <Service
         title={"Starter Workshop"}
         price={

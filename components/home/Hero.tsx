@@ -9,7 +9,7 @@ import Button from "../../components/Button";
 export default function Hero() {
   return (
     <header className="flex flex-col md:flex-row justify-between items-center py-8 md:py-12 lg:py-16 2xl:py-24">
-      <div className="w-full flex flex-col items-end md:items-start md:w-4/12 md:pb-1 2xl:pb-2">
+      <div className="order-1 md:order-0 w-full flex flex-col items-end md:items-start md:w-4/12 md:pb-1 2xl:pb-2">
         <div className="relative">
           <Image
             src={ProfilePic}
@@ -21,15 +21,14 @@ export default function Hero() {
           <p className="mt-2 text-sm font-mono">Hi, I&apos;m Timmy 👋</p>
         </div>
       </div>
-      <div className="w-full md:w-7/12 pt-8 md:pt-12 lg:pt-0 pb-8 md:pb-0">
+      <div className="order-0 md:order-1 w-full md:w-7/12 pt-8 md:pt-12 lg:pt-0 pb-8 md:pb-0">
         <h1 className="text-3xl xl:text-4xl 2xl:text-5xl">
           Are you a non-technical founder, unsure of how to get your app built?
         </h1>
         <p className="text-base md:text-lg xl:text-xl mt-5 xl:mt-4 2xl:mt-10">
           Put a crystal clear plan in place instead of wasting €1,000s on
-          needless development. Book a roadmapping workshop and set the
-          foundations for a cheaper and faster build-phase with trusted
-          developers.
+          needless development. Book a roadmapping workshop and set solid
+          foundations before a line of code is written.
         </p>
         <div className="mt-5 xl:mt-6 2xl:mt-10">
           <Button href="/" className="w-full sm:w-auto text-center">

@@ -4,7 +4,7 @@ import Button from "../Button";
 export default function Contact() {
   return (
     <section className="flex flex-col mb-16">
-      <h1 className="w-full pt-8 md:pt-12 font-medium text-3xl xl:text-4xl">
+      <h1 className="w-full pt-8 md:pt-12 font-medium text-2xl md:text-3xl xl:text-4xl">
         Need to think it over?
       </h1>
       <div className="flex flex-col md:flex-row gap-6 md:gap-32 mt-5 md:mt-12">

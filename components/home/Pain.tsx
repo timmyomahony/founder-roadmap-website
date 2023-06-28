@@ -3,7 +3,7 @@ import Divider from "../../components/Divider";
 export default function Pain() {
   return (
     <>
-      <section className="flex flex-col md:flex-row my-8 md:my-12 lg:my-16 2xl:my-24 gap-24 md:gap-12 lg:gap-24">
+      <section className="flex flex-col md:flex-row my-8 md:my-12 lg:my-16 2xl:my-24 gap-12 md:gap-12 lg:gap-24">
         <div className="w-full md:w-1/2 lg:w-1/2">
           <h2 className="text-2xl lg:text-3xl">
             I help non-technical founders put together a bulletproof plan for
@@ -40,15 +40,13 @@ export default function Pain() {
           </ul>
           <p className="text-sm md:text-base xl:text-lg mb-6 lg:mb-8">
             Finding the right person to answer these questions is tough,
-            particularly as the incentives between developers and founders don’t
-            always line up.
+            particularly as the incentives between development agencies and
+            founders don&apos;t always line up.
           </p>
           <p className="text-sm md:text-base xl:text-lg mb-6 lg:mb-8">
-            The truth is that building apps can be expensive and risky. It can
-            be hard to communicate your expectations and there are countless
-            unknowns that need to be uncovered ahead of time. Without a plan in
-            place, milestones get missed and development costs soar as problems
-            are fixed on the fly.
+            You&apos;ve got enough on your plate, so why not get expert guidance
+            from an experienced and impartial software developer with a{" "}
+            <strong>roadmapping workshop</strong>.
           </p>
         </div>
       </section>

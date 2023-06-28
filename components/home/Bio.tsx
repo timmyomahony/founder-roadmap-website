@@ -6,8 +6,8 @@ export default function Bio() {
   return (
     <section className="flex flex-col pt-8 md:pt-12 lg:pt-16 2xl:pt-32 pb-8 md:pb-12 lg:pb-16 2xl:pb-24 gap-16 lg:gap-24">
       <Divider text={"More about me"} image={ProfilePic} />
-      <div className="grid grid-cols-6">
-        <div className="col-start-3 col-span-3 flex flex-col gap-4 text-base md:text-lg xl:text-xl">
+      <div className="mt-32 md:mt-0 grid grid-cols-6">
+        <div className="col-start-0 col-span-6 md:col-start-3 md:col-span-3 flex flex-col gap-4 text-sm md:text-lg xl:text-xl">
           <p>
             I&apos;ve been an independent software developer for over 10 years.
             In that time I&apos;ve built everything from simple marketing
@@ -24,14 +24,14 @@ export default function Bio() {
             This means I love helping founders in the first part of their
             journey: creating a roadmap for development.
           </p>
-          <p className="xl:mt-10">
+          <p className="mt-5 xl:mt-10">
             <a
-              className="group text-green-300 text-base flex gap-3 items-center"
+              className="group text-green-300 text-sm md:text-base flex gap-3 items-center"
               href="https://www.linkedin.com/in/timmy-omahony/"
               target="_blank"
               rel="noreferrer"
             >
-              <LinkedIcon className="w-5" />
+              <LinkedIcon className="w-4 md:w-5" />
               <span className="group-hover:underline">
                 Connect with me on LinkedIn
               </span>

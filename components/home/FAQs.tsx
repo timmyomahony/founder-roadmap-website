@@ -101,9 +101,9 @@ const FAQs = () => {
   }, []);
 
   return (
-    <section className="pt-8 md:pt-12 lg:pt-16 2xl:pt-32 pb-8 md:pb-12 lg:pb-16 2xl:pb-24 ">
-      <h2 className="text-2xl lg:text-4xl">Still have questions?</h2>
-      <ul className="text-lg border-t-2 border-zinc-800 mt-12">
+    <section className="pt-12 lg:pt-16 2xl:pt-32 pb-8 md:pb-12 lg:pb-16 2xl:pb-24 ">
+      <h2 className="text-xl md:text-2xl lg:text-4xl">Still have questions?</h2>
+      <ul className="text-lg border-t-2 border-zinc-800 mt-6 md:mt-12">
         {faqs.map((faq, i) => {
           return (
             <li
@@ -112,7 +112,7 @@ const FAQs = () => {
               className="sm:px-4 py-4 sm:py-6 md:py-8 border-b-2 border-zinc-800"
             >
               <h3
-                className={`cursor-pointer type-2 md:type-2ish lg:type-3 flex sm:items-center ${
+                className={`cursor-pointer flex sm:items-center text-sm md:text-lg ${
                   i === activeItem ? "font-medium" : ""
                 }`}
               >
@@ -141,7 +141,7 @@ const FAQs = () => {
                 )}
               </h3>
               <div
-                className={`prose-lg mt-8 md:mt-10 lg:mt-12 sm:ml-10 type-2 relative w-full sm:w-2/3 ${
+                className={`prose-sm lg:prose-lg mt-8 md:mt-10 lg:mt-12 sm:ml-10 type-2 relative w-full sm:w-2/3 ${
                   i === activeItem ? "block" : "hidden"
                 }`}
               >
@@ -151,7 +151,7 @@ const FAQs = () => {
           );
         })}
       </ul>
-      <p className="text-end text-xs mt-6">
+      <p className="text-start md:text-end text-xs mt-6">
         Have a question that&apos;s not covered here?{" "}
         <a
           href={`mailto:${getEmailAddress()}`}
