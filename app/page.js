@@ -34,7 +34,6 @@ export default function HomePage() {
         <div className="py-8">
           <Divider text={"Testimonials"} />
         </div>
-
         <Testimonials />
         <section className="pt-12 lg:pt-16 xl:pt-24 2xl:pt-32">
           <Image
