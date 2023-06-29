@@ -14,7 +14,7 @@ const defaultMetadata = ({
   type = "website",
 }: Props) => {
   const defaultImage =
-    "https://www.timmyomahony.com/timmy-omahony-social-media-card.jpg";
+    "https://www.timmyomahony.com/founder-roadmap-social-media-card.jpg";
   let metadata = {
     title: title,
     description,
