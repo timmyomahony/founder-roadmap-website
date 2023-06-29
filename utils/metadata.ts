@@ -14,7 +14,7 @@ const defaultMetadata = ({
   type = "website",
 }: Props) => {
   const defaultImage =
-    "https://www.founderroadmap.com/founder-roadmap-social-media-card.jpg";
+    "https://www.founderroadmap.com/founder-roadmap-social-card.jpg";
   let metadata = {
     title: title,
     description,
