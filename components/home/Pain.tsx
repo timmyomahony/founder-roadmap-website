@@ -37,7 +37,7 @@ export default function Pain() {
               </p>
             </li>
           </ul>
-          <p className="text-sm md:text-base xl:text-lg mb-6 lg:mb-8">
+          {/* <p className="text-sm md:text-base xl:text-lg mb-6 lg:mb-8">
             Getting answers to these questions can be tough. [Developers give
             differnet answers based on what they like using etc.]
           </p>
@@ -45,7 +45,7 @@ export default function Pain() {
             Imagine you could cut through the noise and get honest advise that
             goes through all of the options, not just the "latest and greatest"
             technology
-          </p>
+          </p> */}
         </div>
       </section>
       <section className="my-8">
