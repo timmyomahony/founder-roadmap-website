@@ -48,10 +48,7 @@ export default function Hero() {
         </div>
         <p className="text-xs mt-5 xl:mt-5 2xl:mt-10">
           Don&apos;t worry, it&apos;s free to book. Have questions?{" "}
-          <a
-            className="text-green-300 underline"
-            href={`mailto:${getEmailAddress()}`}
-          >
+          <a className="underline" href={`mailto:${getEmailAddress()}`}>
             Send me an email
           </a>
         </p>
