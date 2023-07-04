@@ -18,7 +18,18 @@ export default function Hero() {
             quality={95}
             priority
           />
-          <p className="mt-2 text-sm font-mono">Hi, I&apos;m Timmy 👋</p>
+          <p className="mt-2 text-sm font-mono">
+            Hi, I&apos;m{" "}
+            <a
+              href="https://timmyomahony.com"
+              target="_blank"
+              title="Visit my personal homepage"
+              className="border-b border-dotted"
+            >
+              Timmy
+            </a>{" "}
+            👋
+          </p>
         </div>
       </div>
       <div className="order-0 md:order-1 w-full md:w-7/12 pt-8 md:pt-12 lg:pt-0 pb-8 md:pb-0">
