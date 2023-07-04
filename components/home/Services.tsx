@@ -144,7 +144,7 @@ export default function Services() {
           "Nail down wireframes & architecture",
           "Get introduced to quality developers",
         ]}
-        linkText={"Apply Now"}
+        linkText={"Book Now"}
         linkOnClick={() => {
           window.location.href = "https://savvycal.com/founderroadmap/roadmap";
         }}
