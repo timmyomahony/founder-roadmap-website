@@ -74,6 +74,29 @@ const faqs = [
       </div>
     ),
   },
+  {
+    question: "I've already got an existing app. Can you help?",
+    answer: (
+      <div>
+        <p>
+          Yes absolutely, if you&apos;ve already had something developer, but
+          things have gone off the rails, I&pos;d love to help get things back
+          on track.
+        </p>
+        <p>
+          Whether it&apos;s a workshop, roadmap or other strategy call required,
+          the best thing to do is{" "}
+          <a
+            className="underline"
+            href="https://savvycal.com/founderroadmap/roadmap"
+          >
+            book a free intro call
+          </a>{" "}
+          to figure out the next steps.
+        </p>
+      </div>
+    ),
+  },
 ];
 
 const FAQs = () => {
