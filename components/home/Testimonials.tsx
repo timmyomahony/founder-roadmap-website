@@ -16,66 +16,71 @@ const testimonials: Array<Testimonial> = [
     portrait: Portrait,
     text: (
       <>
-        &ldquo;Timmy has consistency delivered a number of tricky, creative and
-        technically challenging projects over the past 7 years for us. He&apos;s
-        our go-to guy for creative web dev.&rdquo;
+        &ldquo;Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+        eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
+        minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip
+        ex ea commodo consequat.&rdquo;
       </>
     ),
-    person: "John Kilcullen",
+    person: "Joe Bloggs",
     link: "https://linkedin.com",
-    company: "Verve Live Media",
+    company: "Big Co. Company",
   },
   {
     portrait: Portrait,
     text: (
       <>
-        &ldquo;Timmy has consistency delivered a number of tricky, creative and
-        technically challenging projects over the past 7 years for us. He&apos;s
-        our go-to guy for creative web dev.&rdquo;
+        &ldquo;Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+        eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
+        minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip
+        ex ea commodo consequat.&rdquo;
       </>
     ),
-    person: "John Kilcullen",
+    person: "Joe Bloggs",
     link: "https://linkedin.com",
-    company: "Verve Live Media",
+    company: "Big Co. Company",
   },
   {
     portrait: Portrait,
     text: (
       <>
-        &ldquo;Timmy has consistency delivered a number of tricky, creative and
-        technically challenging projects over the past 7 years for us. He&apos;s
-        our go-to guy for creative web dev.&rdquo;
+        &ldquo;Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+        eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
+        minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip
+        ex ea commodo consequat.&rdquo;
       </>
     ),
-    person: "John Kilcullen",
+    person: "Joe Bloggs",
     link: "https://linkedin.com",
-    company: "Verve Live Media",
+    company: "Big Co. Company",
   },
   {
     portrait: Portrait,
     text: (
       <>
-        &ldquo;Timmy has consistency delivered a number of tricky, creative and
-        technically challenging projects over the past 7 years for us. He&apos;s
-        our go-to guy for creative web dev.&rdquo;
+        &ldquo;Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+        eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
+        minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip
+        ex ea commodo consequat.&rdquo;
       </>
     ),
-    person: "John Kilcullen",
+    person: "Joe Bloggs",
     link: "https://linkedin.com",
-    company: "Verve Live Media",
+    company: "Big Co. Company",
   },
   {
     portrait: Portrait,
     text: (
       <>
-        &ldquo;Timmy has consistency delivered a number of tricky, creative and
-        technically challenging projects over the past 7 years for us. He&apos;s
-        our go-to guy for creative web dev.&rdquo;
+        &ldquo;Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+        eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
+        minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip
+        ex ea commodo consequat.&rdquo;
       </>
     ),
-    person: "John Kilcullen",
+    person: "Joe Bloggs",
     link: "https://linkedin.com",
-    company: "Verve Live Media",
+    company: "Big Co. Company",
   },
 ];
 
