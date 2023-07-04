@@ -15,7 +15,7 @@ export default function Contact() {
             15 minute intro call to answer any lingering questions.
           </p>
           <div className="mt-5 xl:mt-10">
-            <Button href="https://savvycal.com/founderroadmap/intro-call">
+            <Button href="https://savvycal.com/founderroadmap/intro">
               Schedule a free intro call
             </Button>
           </div>

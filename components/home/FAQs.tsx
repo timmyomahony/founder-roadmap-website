@@ -59,6 +59,21 @@ const faqs = [
       </div>
     ),
   },
+  {
+    question: "Who does the actual development & coding?",
+    answer: (
+      <div>
+        <p>
+          Normally, actual development & coding will be done by a separate
+          developer or development agency.
+        </p>
+        <p>
+          One of the benefits of working together is that I can help suggest
+          trusted developers that are the right for you.
+        </p>
+      </div>
+    ),
+  },
 ];
 
 const FAQs = () => {
