@@ -37,12 +37,12 @@ export default function Hero() {
           Are you a non-technical founder, unsure of how to get your app built?
         </h1>
         <p className="text-base md:text-lg xl:text-xl mt-5 xl:mt-4 2xl:mt-10">
-          Put a crystal clear plan in place instead of wasting €1,000s on
-          needless development. Book a workshop today to get clarity on
-          technologies, costs and timelines before a line of code gets written.
+          Put a crystal clear plan in place and avoid wasting €1000s on
+          ineffecient development. Book a workshop today to get clarity on
+          technology, cost and timeline before a line of code gets written.
         </p>
         <div className="mt-5 xl:mt-6 2xl:mt-10">
-          <Button href="#services" className="w-full sm:w-auto text-center">
+          <Button href="/#services" className="w-full sm:w-auto text-center">
             Book a workshop
           </Button>
         </div>

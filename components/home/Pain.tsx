@@ -3,11 +3,10 @@ import Divider from "../../components/Divider";
 export default function Pain() {
   return (
     <>
-      <section className="flex flex-col md:flex-row my-8 md:my-12 lg:my-16 2xl:my-24 gap-12 md:gap-12 lg:gap-24">
+      <section className="flex flex-col md:flex-row  my-8 md:my-12 lg:my-16 gap-12 md:gap-12 lg:gap-24">
         <div className="w-full md:w-1/2 lg:w-1/2">
-          <h2 className="text-2xl lg:text-3xl">
-            I help non-technical founders put together a bulletproof plan for
-            turning their ideas into apps, before a line of code is written.
+          <h2 className="text-2xl lg:text-4xl">
+            Missing a go-to &ldquo;tech guy&rdquo;?
           </h2>
         </div>
         <div className="w-full md:w-1/2">
@@ -39,28 +38,32 @@ export default function Pain() {
             </li>
           </ul>
           <p className="text-sm md:text-base xl:text-lg mb-6 lg:mb-8">
-            Finding the right person to answer these questions is tough,
-            particularly as the incentives between development agencies and
-            founders don&apos;t always line up.
+            Getting answers to these questions can be tough. [Developers give
+            differnet answers based on what they like using etc.]
           </p>
-          <p className="text-sm md:text-base xl:text-lg mb-6 lg:mb-8">
-            You&apos;ve got enough on your plate, so why not get expert guidance
-            from an experienced and impartial software developer with a{" "}
-            <strong>roadmapping workshop</strong>.
+          <p className="text-sm md:text-base xl:text-lg">
+            Imagine you could cut through the noise and get honest advise that
+            goes through all of the options, not just the "latest and greatest"
+            technology
           </p>
         </div>
       </section>
       <section className="my-8">
-        <Divider text={"What's a roadmapping workshop?"} />
+        <Divider text={"Workshops & Roadmaps"} />
       </section>
       <section className="flex flex-col md:flex-row my-8 md:my-12 lg:my-16 2xl:my-24 gap-24 md:gap-12 lg:gap-24">
         <div className="w-full md:w-1/2 lg:w-1/2">
-          <p className="text-sm md:text-base xl:text-lg mb-6 lg:mb-8">
-            The truth is that building apps can be expensive and risky. It can
-            be hard to communicate your expectations and there are countless
-            unknowns that need to be uncovered ahead of time. Without a plan in
-            place, milestones get missed and development costs soar as problems
-            are fixed on the fly.
+          <h2 className="text-2xl lg:text-3xl">
+            Get expert guidance from an experienced & impartial software
+            developer.
+          </h2>
+          <p className="mt-6 lg:mt-8 text-sm md:text-base xl:text-lg">
+            Workshops and roadmaps are two steps you can take to help uncover
+            the &ldquo;unknown unknowns&rdquo; A workshop or roadmap are two
+            steps you can take before a line of code is written. They are
+            intended to help you uncover all of your uncertainties, assumptions
+            & unknowns as early as possible to help take the risk out of the
+            most tedious & expensive part of software development: the coding.
           </p>
         </div>
       </section>

@@ -12,61 +12,49 @@ interface FAQ {
 
 const faqs = [
   {
-    question: "I've already got an app, can you help with _________?",
+    question: "How does booking and payment work?",
     answer: (
       <div>
         <p>
-          Yes absolutely. Whether you&apos;ve got a new feature or integration,
-          or just need some advice on what to do next, I can help you out.
+          For <strong>workshops</strong> you can{" "}
+          <a
+            className="underline"
+            href="https://savvycal.com/founderroadmap/workshop"
+          >
+            directly book a 2 hour timeslot
+          </a>{" "}
+          that suits your schedule. Once you&apos;re booked in, I&apos;ll send
+          on a private Stripe link where you can make payment before the call.
         </p>
         <p>
-          Yes absolutely. If you&apos;ve got an existing app that needs some TLC
-          I can help you unscramble it.
+          Because I have a limited availability for <strong>roadmaps</strong>,
+          it&apos;s best to first{" "}
+          <a
+            className="underline"
+            href="https://savvycal.com/founderroadmap/roadmap"
+          >
+            book a free intro call
+          </a>{" "}
+          to discuss timelines. If everything lines up, I&apos;ll send on a
+          private Stripe link where you can make payment. We&apos;ll then
+          arrange our first workshop to kick things off.
         </p>
       </div>
     ),
   },
   {
-    question: "I've already got an app, can you help with _________?",
+    question: "I'd rather not share the details of my business.",
     answer: (
       <div>
         <p>
-          Yes absolutely. Whether you&apos;ve got a new feature or integration,
-          or just need some advice on what to do next, I can help you out.
+          For any intro calls or other initial conversations, that&apos;s no
+          problem, we can work around it. When it comes to a workshop or roadmap
+          though we&apos;re going to need to get into the details.
         </p>
         <p>
-          Yes absolutely. If you&apos;ve got an existing app that needs some TLC
-          I can help you unscramble it.
-        </p>
-      </div>
-    ),
-  },
-  {
-    question: "I've already got an app, can you help with _________?",
-    answer: (
-      <div>
-        <p>
-          Yes absolutely. Whether you&apos;ve got a new feature or integration,
-          or just need some advice on what to do next, I can help you out.
-        </p>
-        <p>
-          Yes absolutely. If you&apos;ve got an existing app that needs some TLC
-          I can help you unscramble it.
-        </p>
-      </div>
-    ),
-  },
-  {
-    question: "I've already got an app, can you help with _________?",
-    answer: (
-      <div>
-        <p>
-          Yes absolutely. Whether you&apos;ve got a new feature or integration,
-          or just need some advice on what to do next, I can help you out.
-        </p>
-        <p>
-          Yes absolutely. If you&apos;ve got an existing app that needs some TLC
-          I can help you unscramble it.
+          Rest assured that I&apos;ve worked with many other companies and
+          individuals before in the strictest of confidence, so your secrets are
+          safe with me.
         </p>
       </div>
     ),
