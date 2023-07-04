@@ -38,15 +38,12 @@ export default function Hero() {
         </h1>
         <p className="text-base md:text-lg xl:text-xl mt-5 xl:mt-4 2xl:mt-10">
           Put a crystal clear plan in place instead of wasting €1,000s on
-          needless development. Book a roadmapping workshop and set solid
-          foundations before a line of code gets written.
+          needless development. Book a workshop today to get clarity on
+          technologies, costs and timelines before a line of code gets written.
         </p>
         <div className="mt-5 xl:mt-6 2xl:mt-10">
-          <Button
-            href="https://savvycal.com/founderroadmap/roadmapping-workshop"
-            className="w-full sm:w-auto text-center"
-          >
-            Book a roadmapping workshop today
+          <Button href="#services" className="w-full sm:w-auto text-center">
+            Book a workshop
           </Button>
         </div>
         <p className="text-xs mt-5 xl:mt-5 2xl:mt-10">

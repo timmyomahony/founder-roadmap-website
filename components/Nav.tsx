@@ -28,7 +28,7 @@ export default function Nav() {
         <ul className="flex gap-3 ">
           <li className="w-4 h-4 lg:w-5 lg:h-5">
             <a
-              className="text-zinc-600 hover:text-white transition-all duration-300 ease-linear"
+              className="text-zinc-400 hover:text-white transition-all duration-300 ease-linear"
               href="https://www.linkedin.com/company/founder-roadmap/"
               title="Connect on LinkedIn"
               target="_blank"
@@ -39,7 +39,7 @@ export default function Nav() {
           </li>
           <li className="w-4 h-4 lg:w-5 lg:h-5">
             <a
-              className="text-zinc-600 hover:text-white transition-all duration-300 ease-linear"
+              className="text-zinc-400 hover:text-white transition-all duration-300 ease-linear"
               href="https://twitter.com/founderroadmap/"
               title="Follow on Twitter"
               target="_blank"

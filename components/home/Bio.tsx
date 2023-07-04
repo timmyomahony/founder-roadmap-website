@@ -18,12 +18,13 @@ export default function Bio() {
             That said, I started with a degree in computer science, so my
             superpower is problem solving. In short, I&apos;m great at
             understanding ideas, breaking them down into digestible pieces and
-            bringing those pieces together into apps.
+            organising those pieces into apps.
           </p>
-          <p>
-            This means I love helping founders in the first part of their
-            journey: creating a roadmap for development.
-          </p>
+          {/* <p>
+            This means I&apos;m particularly well suited to helping founders in
+            the first part of your journey: getting their thoughts down on paper
+            and arranged
+          </p> */}
           <p className="mt-5 xl:mt-10">
             <a
               className="group text-green-300 text-sm md:text-base flex gap-3 items-center"

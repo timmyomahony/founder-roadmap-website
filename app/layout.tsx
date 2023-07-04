@@ -25,7 +25,7 @@ const ibm_plex_mono = IBM_Plex_Mono({
 
 const RootLayout = ({ children }) => {
   return (
-    <html lang="en">
+    <html lang="en" className="scroll-smooth">
       <body
         className={`bg-zinc-900 text-white p-0 m-0 ${ibm_plex_sans.variable} ${ibm_plex_mono.variable} font-sans`}
       >
