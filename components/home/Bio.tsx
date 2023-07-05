@@ -20,11 +20,12 @@ export default function Bio() {
             understanding ideas, breaking them down into digestible pieces and
             organising those pieces into apps.
           </p>
-          {/* <p>
-            This means I&apos;m particularly well suited to helping founders in
-            the first part of your journey: getting their thoughts down on paper
-            and arranged
-          </p> */}
+          <p>
+            This means that I love working with founders at the start of their
+            journey, helping them put together the solid foundations of a
+            successful software project without wasting money on bloated
+            development phases.
+          </p>
           <p className="mt-5 xl:mt-10">
             <a
               className="group text-green-300 text-sm md:text-base flex gap-3 items-center"
