@@ -91,7 +91,7 @@ export default function Services() {
         description={
           <>
             <p>
-              You&apos;ll leave our workshop armed with the information you need
+              Arm yourself with the information you need
               to confidently kick-off the development phase.
             </p>
             <p>
@@ -119,7 +119,7 @@ export default function Services() {
         price={"€2,995"}
         headline={
           <>
-            Take all the uncertainty out of app development with a detailed
+            Take the uncertainty out of app development with a detailed
             plan-of-action roadmap document.
           </>
         }
