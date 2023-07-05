@@ -128,7 +128,7 @@ const FAQs = () => {
 
   return (
     <section className="pt-12 lg:pt-16 2xl:pt-32 pb-8 md:pb-12 lg:pb-16 2xl:pb-24 ">
-      <h2 className="text-xl md:text-2xl lg:text-4xl">Still have questions?</h2>
+      <h2 className="text-xl md:text-2xl lg:text-4xl">Have some questions?</h2>
       <ul className="text-lg border-t-2 border-zinc-800 mt-6 md:mt-12">
         {faqs.map((faq, i) => {
           return (
