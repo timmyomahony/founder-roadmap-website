@@ -3,10 +3,10 @@ import Divider from "../../components/Divider";
 export default function Pain() {
   return (
     <>
-      <section className="flex flex-col md:flex-row  my-8 md:my-12 lg:my-16 gap-12 md:gap-12 lg:gap-24">
-        <div className="w-full md:w-1/2 lg:w-1/2">
-          <h2 className="text-2xl lg:text-4xl">
-            Missing a go-to &ldquo;tech guy&rdquo;?
+      <section className="flex flex-col md:flex-row my-8 md:my-12 lg:my-16 gap-12 md:gap-12 lg:gap-24">
+        <div className="w-full md:w-1/2">
+          <h2 className="text-3xl xl:text-4xl 2xl:w-2/3">
+            Are you overwhelmed by tech-related questions?
           </h2>
         </div>
         <div className="w-full md:w-1/2">

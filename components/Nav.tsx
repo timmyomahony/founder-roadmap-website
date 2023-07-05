@@ -18,7 +18,6 @@ export default function Nav() {
               src={LogoLight}
               alt="Founder Roadmap"
               className="h-6 w-auto"
-              placeholder="blur"
               quality={100}
               priority
             />
