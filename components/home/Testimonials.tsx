@@ -4,83 +4,29 @@ import Image from "next/image";
 import Portrait from "../../images/timmy-omahony-small.jpg";
 
 interface Testimonial {
-  portrait: any;
+  portrait?: any;
   text: string | ReactElement;
   person: string;
-  link: string;
+  personUrl?: string;
   company: string;
+  companyUrl?: string;
 }
 
 const testimonials: Array<Testimonial> = [
   {
-    portrait: Portrait,
+    // portrait: Portrait,
     text: (
       <>
-        &ldquo;Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-        eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
-        minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip
-        ex ea commodo consequat.&rdquo;
+        &ldquo;It was very important for us to have someone that could quickly
+        gain an understanding of our niche and complex market to build the
+        product we needed. The service we received balanced Timmy&apos;s great
+        development skills alongside an ability to understand what would be the
+        most appropriate solution within our marketplace.&rdquo;
       </>
     ),
-    person: "Joe Bloggs",
-    link: "https://linkedin.com",
-    company: "Big Co. Company",
-  },
-  {
-    portrait: Portrait,
-    text: (
-      <>
-        &ldquo;Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-        eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
-        minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip
-        ex ea commodo consequat.&rdquo;
-      </>
-    ),
-    person: "Joe Bloggs",
-    link: "https://linkedin.com",
-    company: "Big Co. Company",
-  },
-  {
-    portrait: Portrait,
-    text: (
-      <>
-        &ldquo;Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-        eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
-        minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip
-        ex ea commodo consequat.&rdquo;
-      </>
-    ),
-    person: "Joe Bloggs",
-    link: "https://linkedin.com",
-    company: "Big Co. Company",
-  },
-  {
-    portrait: Portrait,
-    text: (
-      <>
-        &ldquo;Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-        eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
-        minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip
-        ex ea commodo consequat.&rdquo;
-      </>
-    ),
-    person: "Joe Bloggs",
-    link: "https://linkedin.com",
-    company: "Big Co. Company",
-  },
-  {
-    portrait: Portrait,
-    text: (
-      <>
-        &ldquo;Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-        eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
-        minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip
-        ex ea commodo consequat.&rdquo;
-      </>
-    ),
-    person: "Joe Bloggs",
-    link: "https://linkedin.com",
-    company: "Big Co. Company",
+    person: "Daniel",
+    companyUrl: "https://vetzone.ie",
+    company: "Vetzone Ltd.",
   },
 ];
 
@@ -98,15 +44,31 @@ const LargeTestimonial = ({ testimonial }: { testimonial: Testimonial }) => {
         {testimonial.text}
       </blockquote>
       <figcaption className="text-xs md:text-sm font-mono mt-4 lg:mt-8 xl:mt-8 2xl:mt-20">
-        <a
-          className="text-green-300 underline"
-          href={testimonial.link}
-          target="_blank"
-          rel="noreferrer"
-        >
-          {testimonial.person}
-        </a>{" "}
-        / <cite className="not-italic">{testimonial.company}</cite>
+        {testimonial.personUrl ? (
+          <a
+            className="text-green-300 underline"
+            href={testimonial.personUrl}
+            target="_blank"
+            rel="noreferrer"
+          >
+            {testimonial.person}
+          </a>
+        ) : (
+          <>{testimonial.person}</>
+        )}
+        {" / "}
+        {testimonial.companyUrl ? (
+          <a
+            className="text-green-300 underline"
+            href={testimonial.companyUrl}
+            target="_blank"
+            rel="noreferrer"
+          >
+            <cite className="not-italic">{testimonial.company}</cite>
+          </a>
+        ) : (
+          <cite className="not-italic">{testimonial.company}</cite>
+        )}
       </figcaption>
     </figure>
   );
@@ -127,15 +89,31 @@ const SmallTestimonial = ({ testimonial }: { testimonial: Testimonial }) => {
           {testimonial.text}
         </blockquote>
         <figcaption className="text-xs leading-tight font-mono mt-4 2xl:mt-20">
-          <a
-            className="text-green-300 underline"
-            href={testimonial.link}
-            target="_blank"
-            rel="noreferrer"
-          >
-            {testimonial.person}
-          </a>{" "}
-          / <cite className="not-italic">{testimonial.company}</cite>
+          {testimonial.personUrl ? (
+            <a
+              className="text-green-300 underline"
+              href={testimonial.personUrl}
+              target="_blank"
+              rel="noreferrer"
+            >
+              {testimonial.person}
+            </a>
+          ) : (
+            <>{testimonial.person}</>
+          )}
+          {" / "}
+          {testimonial.companyUrl ? (
+            <a
+              className="text-green-300 underline"
+              href={testimonial.companyUrl}
+              target="_blank"
+              rel="noreferrer"
+            >
+              <cite className="not-italic">{testimonial.company}</cite>
+            </a>
+          ) : (
+            <cite className="not-italic">{testimonial.company}</cite>
+          )}
         </figcaption>
       </div>
     </figure>
@@ -144,15 +122,15 @@ const SmallTestimonial = ({ testimonial }: { testimonial: Testimonial }) => {
 
 export default function Testimonials() {
   return (
-    <section className="py-12 md:py-20">
-      <div className="mb-12 lg:mb-16 xl:mb-20">
+    <section /*className="py-12 md:py-20"*/ className="mt-12 md:mt-20">
+      <div /*className="mb-12 lg:mb-16 xl:mb-20"*/>
         <LargeTestimonial testimonial={testimonials[0]} />
       </div>
-      <div className="grid grid-cols-1 md:grid-cols-2 gap-4 md:gap-8">
+      {/* <div className="grid grid-cols-1 md:grid-cols-2 gap-4 md:gap-8">
         {testimonials.slice(1).map((testimonial, i) => {
           return <SmallTestimonial key={i} testimonial={testimonial} />;
         })}
-      </div>
+      </div> */}
     </section>
   );
 }
