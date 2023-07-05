@@ -37,15 +37,19 @@ export default function Pain() {
               </p>
             </li>
           </ul>
-          {/* <p className="text-sm md:text-base xl:text-lg mb-6 lg:mb-8">
-            Getting answers to these questions can be tough. [Developers give
-            differnet answers based on what they like using etc.]
+          <p className="text-sm md:text-base xl:text-lg mb-6 lg:mb-8">
+            It can be difficult getting straight answers to these questions and
+            sometimes you don&apos;t even know what you don&apos;t know.
           </p>
-          <p className="text-sm md:text-base xl:text-lg">
-            Imagine you could cut through the noise and get honest advise that
-            goes through all of the options, not just the "latest and greatest"
-            technology
-          </p> */}
+          <p className="text-sm md:text-base xl:text-lg mb-6 lg:mb-8">
+            The truth is, creating something new and novel is challenging. There
+            are countless issues and unknowns ready to pop-up at the worst
+            possible moment.
+          </p>
+          <p className="text-sm md:text-base xl:text-lg mb-6 lg:mb-8">
+            You wouldn&apos;t build a house without a blueprint, so why take the
+            same risk with software?
+          </p>
         </div>
       </section>
       <section className="my-8">
@@ -58,12 +62,15 @@ export default function Pain() {
             developer.
           </h2>
           <p className="mt-6 lg:mt-8 text-sm md:text-base xl:text-lg">
-            Workshops and roadmaps are two steps you can take to help uncover
-            the &ldquo;unknown unknowns&rdquo; A workshop or roadmap are two
-            steps you can take before a line of code is written. They are
-            intended to help you uncover all of your uncertainties, assumptions
-            & unknowns as early as possible to help take the risk out of the
-            most tedious & expensive part of software development: the coding.
+            With a workshop or roadmap, you&apos;ll be removing as much risk as
+            possible from the lengthy and expensive process of building an app,
+            all <em>before a line of code is written.</em>
+          </p>
+          <p className="mt-6 lg:mt-8 text-sm md:text-base xl:text-lg">
+            Ask questions, braindump, discover assumptions, walk-through
+            technical features, uncover unforeseen consequences; by the end of
+            this process you should know exactly what you need to do to avoid a
+            development disaster.
           </p>
         </div>
       </section>
