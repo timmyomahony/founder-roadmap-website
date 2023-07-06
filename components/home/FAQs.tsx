@@ -79,8 +79,8 @@ const faqs = [
     answer: (
       <div>
         <p>
-          Yes absolutely, if you&apos;ve already had something developer, but
-          things have gone off the rails, I&pos;d love to help get things back
+          Yes absolutely, if you&apos;ve already had something developed, but
+          things have gone off the rails, I&apos;d love to help get things back
           on track.
         </p>
         <p>
