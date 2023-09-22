@@ -31,7 +31,7 @@ export default function PostsPage() {
           <h1 className="text-5xl">Resources</h1>
           <p className="mt-4 text-lg text-zinc-400">
             This is a small collection of useful posts related to software
-            development.
+            development aimed at non-technical founders.
           </p>
         </header>
         <main>
