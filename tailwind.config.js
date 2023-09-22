@@ -39,7 +39,7 @@ module.exports = {
             "--tw-prose-body": theme("colors.white"),
             "--tw-prose-headings": theme("colors.white"),
             "--tw-prose-lead": theme("colors.white"),
-            "--tw-prose-links": theme("colors.white"),
+            "--tw-prose-links": theme("colors.green[300]"),
             "--tw-prose-bold": theme("colors.white"),
             "--tw-prose-counters": theme("colors.white"),
             "--tw-prose-bullets": theme("colors.white"),
