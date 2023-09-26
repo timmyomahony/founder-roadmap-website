@@ -8,7 +8,13 @@ One of the most important lessons to learn before setting out to build a technol
 
 Think of it like owning a car. You never just "buy a car" - you have to look after it and bring it in for regular servicing. If you're lucky you just need an oil change and a few new tyres. Sometimes you need new breaks. Other times you need body work to straighten out some dents. Owning a car requires constant oversight and attention.
 
-Software is like owning a car … but worse. Imagine you woke up one day and they'd changed the language of all road signs, or that everybody now drives on the other side of the road. Due to the complex nature of modern software development and distribution, there are countless surprising ways that things can go wrong through no fault of your own. Here are just a few:
+Software is like owning a car … but worse.
+
+Imagine you woke up one day and they'd changed the language of all road signs, or that everybody now drives on the other side of the road. Imagine your car now ran on ice cream, not petrol. Imagine they switched the colours of the traffic lights so that red meant go.
+
+Due to the complex nature of modern software development and distribution, there are countless surprising ways that things can go wrong unexpectedly and through no fault of your own.
+
+Here are just a few:
 
 1. **Upgrades and patches.** The machines hosting your software will need constant security updates, as will the dependencies and libraries in your own codebase.
 2. **Bug fixes.** Your code will _never_ be free from bugs. As time goes on users will do things you never expected, uncovering surprising new bugs. These need to be tracked down, replicated and fixed.
