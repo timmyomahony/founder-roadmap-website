@@ -1,20 +1,30 @@
 ---
 title: Software is never done
 description: So that you don't end up murdering your future co-founder or developer, it's important to understand that software is never finished and requires constant maintenance and investment.
-date: 09-21-2023
+date: 09-26-2023
 ---
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum **rutrum luctus sapien**, in iaculis nisl maximus id. Nullam pulvinar ante libero, vitae bibendum felis laoreet fringilla. Quisque vehicula eros eros, eu feugiat leo scelerisque ut. Ut ullamcorper vitae justo vitae imperdiet. Nullam placerat risus sit amet diam feugiat, pretium [ultricies massa gravida](https://www.google.com). Fusce tortor leo, consectetur ut urna vitae, _mattis vestibulum mi_. Donec pharetra quam vitae ipsum auctor facilisis. Nullam et sodales orci. Etiam tempus, nisi in scelerisque varius, justo dolor porta odio, sed tempus odio elit et dui.
+One of the most important lessons to learn before setting out to build a technology-based business is that **software is never finished** - all software projects require ongoing maintenance, even when it appears that no new features are being added and you've finally reached "version 1".
 
-- Mauris egestas magna neque
-- Mauris egestas magna neque
-- Mauris egestas magna neque
-- Mauris egestas magna neque
+Think of it like owning a car. You never just "buy a car" - you have to look after it and bring it in for regular servicing. If you're lucky you just need an oil change and a few new tyres. Sometimes you need new breaks. Other times you need body work to straighten out some dents. Owning a car requires constant oversight and attention.
 
-Mauris egestas magna neque, eu pretium lorem pretium id. Fusce aliquet risus quis dignissim laoreet. Praesent orci enim, eleifend vitae ultrices eget, tempus quis mi. Vivamus fermentum ante sem, quis porta ante hendrerit a. Donec odio elit, malesuada eleifend nisl eu, hendrerit imperdiet sem. In id facilisis velit.
+Software is like owning a car … but worse. Imagine you woke up one day and they'd changed the language of all road signs, or that everybody now drives on the other side of the road. Due to the complex nature of modern software development and distribution, there are countless surprising ways that things can go wrong through no fault of your own. Here are just a few:
 
-> Aenean vel scelerisque nulla, at pretium risus. Nunc tellus felis, sagittis at libero et, tempor dapibus dui. Sed fringilla, ipsum non sollicitudin porttitor, nibh odio porta mauris, ut vestibulum diam eros ac nisl.
+1. **Upgrades and patches.** The machines hosting your software will need constant security updates, as will the dependencies and libraries in your own codebase.
+2. **Bug fixes.** Your code will _never_ be free from bugs. As time goes on users will do things you never expected, uncovering surprising new bugs. These need to be tracked down, replicated and fixed.
+3. **Dependency changes.** Sometimes other pieces of code your application relies on disappear or change, potentially breaking your codebase without warning.
+4. **Integration issues.** Like dependencies, it's common for software to rely on other systems like external 3rd party APIs. These can change or disappear over night, requiring updates on your codebase.
+5. **Hosting issues.** There's no such thing as 100% uptime. Your hosting vendor is going to go down at some point and you may need to restore from backups or fix resulting problems.
+6. **Technical debt.** If you took shortcuts or made compromises early in the project, they may come back to haunt you.
+7. **Scaling requirements.** As your product grows, you may need to scale-up your infrastructure which can get complicated quickly.
+8. **Compliance & regulation.** Regardless of where you operate, new regulations like GDPR can be introduced, requiring you to update your application or codebase to remain compliant.
+9. **Training.** In bigger systems you're going to need to constantly train new members of staff in how to use the software.
+10. **Documentation & knowledge transfer.** Over time, original team members might leave, and new developers come on board. If proper documentation isn't maintained or if knowledge transfer isn't done effectively, there can be costs in terms of time and productivity.
 
-Praesent ac libero et augue condimentum finibus. Phasellus egestas, enim in pretium auctor, nulla nulla sodales ex, sit amet laoreet nisi leo nec lorem. Vestibulum tempor rhoncus turpis sit amet varius. Nam sed lacus fringilla, sodales augue in, gravida nunc.
+So what can you do about this?
 
-Ut quis maximus ipsum, at varius lorem. Ut hendrerit tempor felis et dictum. Mauris pharetra placerat velit, a gravida ante lobortis non. Sed sit amet pretium magna. In auctor lectus molestie urna pulvinar, gravida finibus ipsum sagittis. Vivamus blandit suscipit sem, id iaculis risus faucibus eu. Praesent iaculis, quam vitae porta pulvinar, lectus urna condimentum augue, nec interdum diam massa eu elit. Pellentesque in dui non velit euismod placerat quis non orci. Morbi varius, mi id viverra facilisis, est purus maximus turpis, eget tincidunt tortor libero nec dui. Phasellus ornare arcu et posuere volutpat. Proin tincidunt, elit sed pretium ullamcorper, arcu leo euismod quam, vitae consectetur tellus urna eu sapien. Proin ligula magna, elementum nec metus non, dapibus suscipit odio.
+1. **Plan.** Discuss this with your developer or CTO ahead of time and factor ongoing costs into your budget.
+2. **Document.** Make sure that there is some sort of documentation available for your codebase. It doesn't have to be perfect but it does have to exist
+3. **Test.** Ensure your developers are creating test suites for your software so that features can be easily verified as OK when code changes.
+4. **Look ahead**. Don't allow developers to pick trendy technologies that may disappear in a year. Choose trusted technologies that will be around for decades.
+5. **Inform yourself**. You may not be a developer yourself, but you should understand where everything is: who is your web host, where is the code base, who has access.
