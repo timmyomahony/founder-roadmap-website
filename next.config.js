@@ -1,8 +1,7 @@
+const { withContentlayer } = require("next-contentlayer");
+
 /** @type {import('next').NextConfig} */
-const nextConfig = {
-  experimental: {
-    appDir: true,
-  },
+const nextConfig = withContentlayer({
   trailingSlash: true,
   reactStrictMode: true,
   // https://github.com/vercel/next.js/issues/48177
@@ -37,6 +36,6 @@ const nextConfig = {
   async redirects() {
     return [];
   },
-};
+});
 
-export default nextConfig;
+module.exports = nextConfig;
