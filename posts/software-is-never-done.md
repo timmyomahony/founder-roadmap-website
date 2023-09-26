@@ -1,6 +1,6 @@
 ---
 title: Software is never done
-description: So that you don't end up murdering your future co-founder or developer, it's important to understand that software is never finished and requires constant maintenance and investment.
+description: So that you don't end up murdering your future co-founder or developer, it's important to understand that software is never finished and requires constant maintenance and therefore investment.
 date: 09-26-2023
 ---
 
