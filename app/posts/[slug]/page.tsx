@@ -13,15 +13,15 @@ export default function PostPage({ params }: { params: { slug: string } }) {
   return (
     <Page>
       <Container>
-        <header className="mt-32 mb-16">
-          <h1 className="text-5xl">{post.title}</h1>
-          <p className="w-full lg:w-3/4 mt-4 text-xl text-zinc-400">
+        <header className="mt-8 lg:mt-32 mb-8 lg:mb-16">
+          <h1 className="text-2xl lg:text-5xl">{post.title}</h1>
+          <p className="w-full lg:w-3/4 mt-4 text-lg lg:text-xl text-zinc-400">
             {post.description}
           </p>
         </header>
         <hr className="w-32 border-t-2 border-zinc-800" />
         <main
-          className="prose prose-white prose-lg mt-16 mb-32"
+          className="prose prose-white lg:prose-lg mt-8 lg:mt-16 mb-8 lg:mb-32"
           dangerouslySetInnerHTML={{ __html: post.body.html }}
         ></main>
       </Container>
