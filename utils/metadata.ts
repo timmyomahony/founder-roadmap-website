@@ -14,7 +14,7 @@ const defaultMetadata = ({
   type = "website",
 }: Props) => {
   const defaultImage =
-    "https://www.founderroadmap.com/founder-roadmap-social-card.jpg";
+    "https://www.planning.timmyomahony.com/founder-roadmap-social-card.jpg";
   let metadata = {
     title: title,
     description,
@@ -24,23 +24,26 @@ const defaultMetadata = ({
       card: "summary_large_image",
       title: title,
       description: description,
-      creator: "@founderroadmap",
+      creator: "@timmyomahony",
       images: [{ url: defaultImage }],
     },
     openGraph: {
       title: title,
       description: description,
-      siteName: "Founder Roadmap",
+      siteName: "Timmy O'Mahony",
       locale: "en-IE",
       type,
       images: [{ url: defaultImage }],
     },
-    authors: [{ name: "Founder Roadmap", url: "https://founderroadmap.com" }],
-    creator: "Founder Roadmap",
+    authors: [
+      { name: "Timmy O'Mahony", url: "https://planning.timmyomahony.com" },
+    ],
+    creator: "Timmy O'Mahony",
     icons: {
-      icon: "https://founderroadmap.com/favicon/favicon-32x32.png",
-      shortcut: "https://founderroadmap.com/favicon/apple-touch-icon.png",
-      apple: "https://founderroadmap.com/favicon/apple-touch-icon.png",
+      icon: "https://planning.timmyomahony.com/favicon/favicon-32x32.png",
+      shortcut:
+        "https://planning.timmyomahony.com/favicon/apple-touch-icon.png",
+      apple: "https://planning.timmyomahony.com/favicon/apple-touch-icon.png",
     },
   };
   if (image) {

@@ -8,13 +8,13 @@ const Footer = () => {
         <div className="flex flex-row justify-between items-center lg:flex-row">
           <div className="w-full">
             <a className="text-base lg:text-2xl leading-normal" href="/">
-              Founder Roadmap
+              Timmy O&aspo;Mahony
             </a>
           </div>
           <ul className="flex gap-3 2xl:gap-4 text-zinc-600">
             <li className="w-4 h-4 lg:w-5 lg:h-5 2xl:w-6 2xl:h-6">
               <a
-                href="https://www.linkedin.com/company/founder-roadmap/"
+                href="https://www.linkedin.com/in/timmy-omahony/"
                 title="Connect on LinkedIn"
                 target="_blank"
                 rel="noreferrer"
@@ -22,7 +22,7 @@ const Footer = () => {
                 <LinkedIcon aria-label="LinkedIn icon" />
               </a>
             </li>
-            <li className="w-4 h-4 lg:w-5 lg:h-5 2xl:w-6 2xl:h-6">
+            {/* <li className="w-4 h-4 lg:w-5 lg:h-5 2xl:w-6 2xl:h-6">
               <a
                 href="https://twitter.com/founderroadmap/"
                 title="Follow me on Twitter"
@@ -31,7 +31,7 @@ const Footer = () => {
               >
                 <TwitterIcon aria-label="Twitter icon" />
               </a>
-            </li>
+            </li> */}
           </ul>
         </div>
         <p className="w-full lg:w-1/2 mt-3 text-sm md:text-base xl:text-lg text-zinc-600">

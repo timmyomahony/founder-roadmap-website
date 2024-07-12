@@ -21,8 +21,8 @@ export default function Bio() {
             organising those pieces into apps.
           </p>
           <p>
-            This means that I love working with founders at the start of their
-            journey, helping them put together the solid foundations of a
+            This means that I love working with business owners at the start of
+            their journey, helping them put together the solid foundations of a
             successful software project without wasting money on bloated
             development phases.
           </p>

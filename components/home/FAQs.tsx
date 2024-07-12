@@ -19,7 +19,7 @@ const faqs = [
           For <strong>workshops</strong> you can{" "}
           <a
             className="underline"
-            href="https://savvycal.com/founderroadmap/workshop"
+            href="https://savvycal.com/timmyomahony/workshop"
           >
             directly book a 2 hour timeslot
           </a>{" "}
@@ -31,7 +31,7 @@ const faqs = [
           it&apos;s best to first{" "}
           <a
             className="underline"
-            href="https://savvycal.com/founderroadmap/roadmap"
+            href="https://savvycal.com/timmyomahony/intro"
           >
             book a free intro call
           </a>{" "}
@@ -88,7 +88,7 @@ const faqs = [
           the best thing to do is{" "}
           <a
             className="underline"
-            href="https://savvycal.com/founderroadmap/roadmap"
+            href="https://savvycal.com/timmyomahony/intro"
           >
             book a free intro call
           </a>{" "}

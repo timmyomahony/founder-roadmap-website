@@ -11,9 +11,8 @@ export default function Pain() {
         </div>
         <div className="w-full md:w-1/2">
           <p className="text-sm md:text-base xl:text-lg mb-6 2xl:mb-8">
-            Whether you&apos;re in an accelerator or launching solo, without a
-            technical co-founder it can be overwhelming figuring how you&apos;re
-            going to bring your idea to life.
+            Without a technical co-founder it can be overwhelming figuring how
+            you&apos;re going to bring your idea to life.
           </p>
           <ul className="list-disc pl-4 mb-6 lg:mb-8 flex flex-col gap-1">
             <li>

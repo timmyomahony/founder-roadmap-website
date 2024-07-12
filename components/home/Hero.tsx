@@ -34,7 +34,7 @@ export default function Hero() {
       </div>
       <div className="order-0 md:order-1 w-full md:w-7/12 pt-8 md:pt-12 lg:pt-0 pb-8 md:pb-0">
         <h1 className="text-3xl xl:text-4xl 2xl:text-5xl">
-          Are you a non-technical founder, unsure of how to get your app built?
+          Are you a business owner, unsure of how to get your app built?
         </h1>
         <p className="text-base md:text-lg xl:text-xl mt-5 xl:mt-4 2xl:mt-10">
           Put a crystal clear plan in place and avoid wasting €1000s on
@@ -48,8 +48,11 @@ export default function Hero() {
         </div>
         <p className="text-xs mt-5 xl:mt-5 2xl:mt-10">
           Don&apos;t worry, it&apos;s free to book. Have questions?{" "}
-          <a className="underline" href={`mailto:${getEmailAddress()}`}>
-            Send me an email
+          <a
+            className="underline"
+            href="https://savvycal.com/timmyomahony/intro"
+          >
+            Book an intro call first
           </a>
         </p>
       </div>

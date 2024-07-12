@@ -91,8 +91,8 @@ export default function Services() {
         description={
           <>
             <p>
-              Arm yourself with the information you need
-              to confidently kick-off the development phase.
+              Arm yourself with the information you need to confidently kick-off
+              the development phase.
             </p>
             <p>
               In this workshop we&apos;ll meet on Zoom for a 1.5 to 2 hour
@@ -111,12 +111,12 @@ export default function Services() {
         ]}
         linkText={"Book Now"}
         linkOnClick={() => {
-          window.location.href = "https://savvycal.com/founderroadmap/workshop";
+          window.location.href = "https://savvycal.com/timmyomahony/workshop";
         }}
       />
       <Service
         title={"Roadmap"}
-        price={"€2,995"}
+        price={"€3,995"}
         headline={
           <>
             Take the uncertainty out of app development with a detailed
@@ -146,7 +146,7 @@ export default function Services() {
         ]}
         linkText={"Book Now"}
         linkOnClick={() => {
-          window.location.href = "https://savvycal.com/founderroadmap/roadmap";
+          window.location.href = "https://savvycal.com/timmyomahony/roadmap";
         }}
       />
       <Service

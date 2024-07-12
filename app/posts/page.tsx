@@ -31,7 +31,7 @@ export default function PostsPage() {
           <h1 className="text-5xl">Resources</h1>
           <p className="mt-4 text-lg text-zinc-400">
             This is a small collection of useful posts related to software
-            development aimed at non-technical founders.
+            development aimed at non-technical business owners.
           </p>
         </header>
         <main>
@@ -54,9 +54,9 @@ export default function PostsPage() {
 const generateMetadata = async () => {
   return defaultMetadata({
     title:
-      "Helpful Resources For Non-Technical Founders of Software Businesses | Founder Roadmap",
+      "Helpful Resources For Non-Technical Business Owners | Timmy O'Mahony",
     description:
-      "Here is a collection of useful resources for non-technical founders when learnding a bit more about software. They'll hopefully help you on your path to funding.",
+      "Here is a collection of useful resources for non-technical business owners when learnding a bit more about software. They'll hopefully help you on your path.",
   });
 };
 

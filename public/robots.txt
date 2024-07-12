@@ -3,7 +3,7 @@ User-agent: *
 Allow: /
 
 # Host
-Host: https://founderroadmap.com
+Host: https://planning.timmyomahony.com
 
 # Sitemaps
-Sitemap: https://founderroadmap.com/sitemap.xml
+Sitemap: https://planning.timmyomahony.com/sitemap.xml

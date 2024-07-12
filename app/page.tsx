@@ -56,9 +56,9 @@ export default function HomePage() {
 const generateMetadata = async () => {
   return defaultMetadata({
     title:
-      "Founder Roadmap | Helping non-technical founders avoid development disasters",
+      "Timmy O'Mahony | Helping non-technical business owners avoid development disasters",
     description:
-      "I help non-technical founders put together a bulletproof plan for turning their ideas into apps, before a line of code is written.",
+      "I help non-technical business ownsers put together a bulletproof plan for turning their ideas into apps, before a line of code is written.",
   });
 };
 
