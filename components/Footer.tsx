@@ -8,7 +8,7 @@ const Footer = () => {
         <div className="flex flex-row justify-between items-center lg:flex-row">
           <div className="w-full">
             <a className="text-base lg:text-2xl leading-normal" href="/">
-              Timmy O&aspo;Mahony
+              Timmy O&apos;Mahony
             </a>
           </div>
           <ul className="flex gap-3 2xl:gap-4 text-zinc-600">

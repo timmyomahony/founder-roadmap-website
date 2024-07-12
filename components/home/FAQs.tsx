@@ -3,8 +3,6 @@
 import React, { ReactElement } from "react";
 import { useState, useEffect } from "react";
 
-import { getEmailAddress } from "../../utils/email";
-
 interface FAQ {
   question: string;
   answer: ReactElement | string;
@@ -180,7 +178,7 @@ const FAQs = () => {
       <p className="text-start md:text-end text-xs mt-6">
         Have a question that&apos;s not covered here?{" "}
         <a
-          href={`mailto:${getEmailAddress()}`}
+          href="mailto:hey@timmyomahony.com"
           className="underline text-green-300"
         >
           Send me an email

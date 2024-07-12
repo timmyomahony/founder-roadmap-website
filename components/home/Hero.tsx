@@ -2,7 +2,6 @@
 
 import Image from "next/image";
 
-import { getEmailAddress } from "../../utils/email";
 import ProfilePic from "../../images/timmy-omahony.jpg";
 import Button from "../../components/Button";
 
