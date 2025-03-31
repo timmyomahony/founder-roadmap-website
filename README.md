@@ -1,6 +1,6 @@
 # Timmy O'Mahony Planning Website
 
-> 🔔 This is no longer maintained. I've moved all of my photos to my main portfolio website `timmyomahony-portfolio` which you can see [here](https://github.com/timmyomahony/timmyomahony-portfolio). 
+> 🔔 This is no longer maintained. I've moved the content to my main portfolio website `timmyomahony-portfolio` which you can see [here](https://github.com/timmyomahony/timmyomahony-portfolio). 
 
 ---
 
